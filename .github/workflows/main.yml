@@ -15,7 +15,6 @@ jobs:
     runs-on: windows-latest
 
      steps:
-
     - uses: actions/checkout@main
 
     - name: Deploy to Azure Web App
