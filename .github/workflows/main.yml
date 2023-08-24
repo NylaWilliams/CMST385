@@ -1,3 +1,20 @@
+Change the name to your course name
+Change the app-name to match what was provided to you in the publish settings file, this is in a naming convention of 'COURSENAME-STUDENTUID'
+Change the publish profile to match what you named your secret setup in GitHub, Example shown below
+ 
+
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+ 
+
+#Change the name to match your course name
+
+#Example name: Deploy HTML Files to AppService - COURSENAME
+
+name: Deploy HTML Files to AppService - CMST385
+
 on:
 
   push:
@@ -24,7 +41,7 @@ jobs:
 
       #Change the app-name to match what was provided to you in the publish settings file, this is in a naming convention of 'COURSENAME-STUDENTUID'
 
-        app-name: 'cmst385-nwilliams248'
+        app-name: 'CMST385-nwilliams248.azurewebsites.net'
 
         slot-name: 'production'
 
